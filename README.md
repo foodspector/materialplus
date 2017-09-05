@@ -1,9 +1,12 @@
-# Material Design for Angular
+# Material Design Plus based on Material Design for Angular
 [![npm version](https://badge.fury.io/js/%40angular%2Fmaterial.svg)](https://www.npmjs.com/package/%40angular%2Fmaterial)
 [![Build Status](https://travis-ci.org/foodspector/materialplus.svg?branch=master)](https://travis-ci.org/foodspector/materialplus)
 [![Gitter](https://badges.gitter.im/angular/material2.svg)](https://gitter.im/angular/material2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This is the home for the Angular team's Material Design components built for and with Angular.
+Material Design Plus is based on the original Material Design components developed by the Angular core team.
+We try to offer you all the best practises inherited from the Angular Core team and enrich the original components with an alternative design approach.
+
+This documentation is inherited from the original project and is subject to change.
 
 #### Quick links
 [Documentation, demos, and guides][aio] | 
