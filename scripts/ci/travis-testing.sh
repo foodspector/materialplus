@@ -30,8 +30,8 @@ if [[ ${fileDiff} =~ ^(.*\.md\s*)*$ ]] && (is_e2e || is_unit); then
   exit 0
 fi
 
-start_tunnel
-wait_for_tunnel
+# start_tunnel
+# wait_for_tunnel
 
 if is_lint; then
   $(npm bin)/gulp ci:lint
@@ -54,4 +54,4 @@ if [ -f dist/coverage/coverage-summary.json ]; then
   $(npm bin)/gulp ci:coverage
 fi
 
-teardown_tunnel
+# teardown_tunnel
