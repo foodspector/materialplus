@@ -17,7 +17,7 @@ jobs:
   - env: MODE=payload
   - env: MODE=prerender
   - env: MODE=closure-compiler
-  - env: MODE=e2e
+#  - env: MODE=e2e
 #  - env: MODE=saucelabs_required
 #  - env: MODE=browserstack_required
   - env: MODE=travis_required
