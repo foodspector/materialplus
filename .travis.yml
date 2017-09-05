@@ -18,20 +18,20 @@ jobs:
   - env: MODE=prerender
   - env: MODE=closure-compiler
   - env: MODE=e2e
-  - env: MODE=saucelabs_required
-  - env: MODE=browserstack_required
+#  - env: MODE=saucelabs_required
+#  - env: MODE=browserstack_required
   - env: MODE=travis_required
   - stage: Deploy
     env: DEPLOY_MODE=build-artifacts
-  - env: DEPLOY_MODE=docs-content
-  - env: DEPLOY_MODE=screenshot-tool
-  - env: DEPLOY_MODE=dashboard
+#  - env: DEPLOY_MODE=docs-content
+#  - env: DEPLOY_MODE=screenshot-tool
+#  - env: DEPLOY_MODE=dashboard
 env:
   global:
   - LOGS_DIR=/tmp/angular-material2-build/logs
-  - SAUCE_USERNAME=angular-ci
-  - BROWSER_STACK_USERNAME=angularteam1
-  - BROWSER_STACK_ACCESS_KEY=BWCd4SynLzdDcv8xtzsB
+  - SAUCE_USERNAME=angular-ci-changethis
+  - BROWSER_STACK_USERNAME=angularteam1-changethis
+  - BROWSER_STACK_ACCESS_KEY=BWCd4SynLzdDcv8xtzsB-changethis
   - BROWSER_PROVIDER_READY_FILE=/tmp/angular-material2-build/readyfile
   - BROWSER_PROVIDER_ERROR_FILE=/tmp/angular-material2-build/errorfile
   - secure: UoXoBw+1b55N5Wx4rgAxIq39vbnmzutYjqQQv1JriCPor5t9GncdZqJLSzRfImI+EoUazWA1RO49XAq6wcuFdmSfeeXWFx0rI4kU8r2tH0Dx1Oavo+MY8YybxcK4Cc8n6dVW4wv/gHg1Ey3sFZrnUW2ufVhWCPba8gBKdZAqpBdUsZ44KgmpCqeM7dglOctcVVJYKk8oCEqe/dXBrcnq/TYBX/o+f4V7AE53syb16kO5pWUbZlQQI/+hI8NFoIpJM24xEmsgt8Xjlu6gHDOVYsyU4oq7jlFyYzK/sjRSOqnxNfJBaz8bYl6sHgtZV9TMDp9FlTgUqsyDk2nhtCtEhSwsIiMo01YusakJz5kYaHaer4kZd4VcvjzIb85eXLU0ourgviFfpxvqTYRQKP31RQ6bZP8Nvdijh6rAH8LPZQLLMEdqzn0jrZuvgaF7ymxgLbKtJi4H4KktzUTgiqvbbkigCAejYvEoMFTHTt2mzwDj3PewSzZqhBPROth5E1cV8v6mOoNsTIia+NfgqDoIpwk55LrFsRkcKHUndgAsL3DNvRF1gRhPnJZaEvAWlAbP1IiM8FygnKA32/qnsSx9dBCHFiXyokWGGo2CIFYSYfWvcF7sqZgouo5mgg0w9tNffIj7GGD5MKVKxYNZu33O0biWh41WnuZKunzank9P+XU=
